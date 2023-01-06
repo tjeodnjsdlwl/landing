@@ -1,0 +1,87 @@
+.footer{
+    .group-top{
+        margin-top: 50px;
+        display: flex;
+        font-size: 17px;
+        padding-bottom: 150px;
+        h3{
+            width: 25%;
+            font-size: 19px;
+            font-weight: 500;
+        }
+        .sns-list{
+            width: 25%;
+            .sns-item{
+                transition: 0.3s;
+                &:hover{
+                    color: rgba(0, 0, 0, 0.466);
+                }
+            }
+            .sns-item+.sns-item{
+                margin-top: 5px;
+            }
+        }
+        .inner1{
+            width: 50%;
+            display: flex;
+            justify-content: end;
+            gap: 10px;
+            .point-rd{
+                height: 31px;
+                overflow: hidden;
+            }
+            .point{
+                padding: 7px;
+            }
+            .btn-direct1{
+                .point-box{
+                    background: #000;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .group-bottom{
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.377);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+    .cookie{
+        visibility: hidden;
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 400px;
+        background: #fff;
+        box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.137);border-radius: 50px;
+        padding: 10px 10px 10px 30px;
+        font-size: 14px;
+        p{
+            color: rgba(0, 0, 0, 0.39);
+            span{
+                color: $font-b;
+                margin-left: 5px;
+            }
+        }
+        .point-rd{
+            height: 28px;
+            overflow: hidden;
+        }
+        .point{
+            padding: 7px 15px;
+        }
+        .btn-direct{
+            .point-box{
+                background: #000;
+                color: #fff;
+            }
+        }
+    }
+}
